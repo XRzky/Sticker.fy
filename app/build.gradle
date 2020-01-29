@@ -107,8 +107,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha03'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
-    implementation 'com.facebook.fresco:fresco:2.0.0'
-    implementation 'com.facebook.fresco:webpsupport:2.0.0'
-    implementation 'com.facebook.fresco:animated-webp:2.0.0'
-    implementation 'com.facebook.fresco:animated-base:2.0.0'
+    implementation 'com.facebook.fresco:fresco:2.1.0'
+    implementation 'com.facebook.fresco:webpsupport:2.1.0'
+    implementation 'com.facebook.fresco:animated-webp:2.1.0'
+    implementation 'com.facebook.fresco:animated-base:2.1.0'
 }
