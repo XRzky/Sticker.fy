@@ -4,116 +4,57 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Cuppy",
-      "publisher": "Jane Doe",
-      "tray_image_file": "tray_Cuppy.png",
-      "image_data_version":"1",
+      "name": "Tahilalats Dailystrip",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Tahilalats.png",
+	  "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "",
+      "publisher_website": "https://www.whatsapp.com/",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
-        {
-          "image_file": "01_Cuppy_smile.webp",
-          "emojis": ["☕","🙂"]
-        },
-        {
-          "image_file": "02_Cuppy_lol.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "03_Cuppy_rofl.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "04_Cuppy_sad.webp",
-          "emojis": ["😩","😰"]
-        },
-        {
-          "image_file": "05_Cuppy_cry.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "06_Cuppy_love.webp",
-          "emojis": ["😍","♥"]
-        },
-        {
-          "image_file": "07_Cuppy_hate.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "08_Cuppy_lovewithmug.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
-          "emojis": ["😘","🍪"]
-        },
-        {
-          "image_file": "10_Cuppy_hmm.webp",
-          "emojis": ["🤔","😐"]
-        },
-        {
-          "image_file": "11_Cuppy_upset.webp",
-          "emojis": ["😱","😵"]
-        },
-        {
-          "image_file": "12_Cuppy_angry.webp",
-          "emojis": ["😡","😠"]
-        },
-        {
-          "image_file": "13_Cuppy_curious.webp",
-          "emojis": ["❓","🤔"]
-        },
-        {
-          "image_file": "14_Cuppy_weird.webp",
-          "emojis": ["🌈","😜"]
-        },
-        {
-          "image_file": "15_Cuppy_bluescreen.webp",
-          "emojis": ["💻","😩"]
-        },
-        {
-          "image_file": "16_Cuppy_angry.webp",
-          "emojis": ["😡","😤"]
-        },
-        {
-          "image_file": "17_Cuppy_tired.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "18_Cuppy_workhard.webp",
-          "emojis": ["💻","🌃"]
-        },
-        {
-          "image_file": "19_Cuppy_shine.webp",
-          "emojis": ["🎉","✨"]
-        },
-        {
-          "image_file": "20_Cuppy_disgusting.webp",
-          "emojis": ["🤮","👎"]
-        },
-        {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": ["🖐","🙋"]
-        },
-        {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": ["🖐","👋"]
-        },
-        {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": ["🍵","😌"]
-        },
-        {
-          "image_file": "24_Cuppy_phone.webp",
-          "emojis": ["📱","😦"]
-        },
-        {
-          "image_file": "25_Cuppy_battery.webp",
-          "emojis": ["🔋","😵"]
-        }
+        {"image_file": "01_Tahilalats.webp"}, {"image_file": "02_Tahilalats.webp"}, {"image_file": "03_Tahilalats.webp"}, {"image_file": "04_Tahilalats.webp"}, {"image_file": "05_Tahilalats.webp"},
+        {"image_file": "06_Tahilalats.webp"}, {"image_file": "07_Tahilalats.webp"}, {"image_file": "08_Tahilalats.webp"}, {"image_file": "09_Tahilalats.webp"}, {"image_file": "10_Tahilalats.webp"},
+        {"image_file": "11_Tahilalats.webp"}, {"image_file": "12_Tahilalats.webp"}, {"image_file": "13_Tahilalats.webp"}, {"image_file": "14_Tahilalats.webp"}, {"image_file": "15_Tahilalats.webp"},
+        {"image_file": "16_Tahilalats.webp"}, {"image_file": "17_Tahilalats.webp"}, {"image_file": "18_Tahilalats.webp"}, {"image_file": "19_Tahilalats.webp"}, {"image_file": "20_Tahilalats.webp"},
+		{"image_file": "21_Tahilalats.webp"}, {"image_file": "22_Tahilalats.webp"}, {"image_file": "23_Tahilalats.webp"}, {"image_file": "24_Tahilalats.webp"}, {"image_file": "25_Tahilalats.webp"}
+      ]
+    },{
+      "identifier": "2",
+      "name": "Si Tengil",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_SiTengil.png",
+	  "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_SiTengil.webp"}, {"image_file": "02_SiTengil.webp"}, {"image_file": "03_SiTengil.webp"}, {"image_file": "04_SiTengil.webp"}, {"image_file": "05_SiTengil.webp"},
+        {"image_file": "06_SiTengil.webp"}, {"image_file": "07_SiTengil.webp"}, {"image_file": "08_SiTengil.webp"}, {"image_file": "09_SiTengil.webp"}, {"image_file": "10_SiTengil.webp"},
+        {"image_file": "11_SiTengil.webp"}, {"image_file": "12_SiTengil.webp"}, {"image_file": "13_SiTengil.webp"}, {"image_file": "14_SiTengil.webp"}, {"image_file": "15_SiTengil.webp"},
+        {"image_file": "16_SiTengil.webp"}, {"image_file": "17_SiTengil.webp"}, {"image_file": "18_SiTengil.webp"}, {"image_file": "19_SiTengil.webp"}, {"image_file": "20_SiTengil.webp"},
+        {"image_file": "21_SiTengil.webp"}, {"image_file": "22_SiTengil.webp"}, {"image_file": "23_SiTengil.webp"}, {"image_file": "24_SiTengil.webp"}
+      ]
+    },{
+      "identifier": "3",
+      "name": "Si Tengil 2",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_SiTengil2.png",
+	  "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_SiTengil2.webp"}, {"image_file": "02_SiTengil2.webp"}, {"image_file": "03_SiTengil2.webp"}, {"image_file": "04_SiTengil2.webp"}, {"image_file": "05_SiTengil2.webp"},
+        {"image_file": "06_SiTengil2.webp"}, {"image_file": "07_SiTengil2.webp"}, {"image_file": "08_SiTengil2.webp"}, {"image_file": "09_SiTengil2.webp"}, {"image_file": "10_SiTengil2.webp"},
+        {"image_file": "11_SiTengil2.webp"}, {"image_file": "12_SiTengil2.webp"}, {"image_file": "13_SiTengil2.webp"}, {"image_file": "14_SiTengil2.webp"}, {"image_file": "15_SiTengil2.webp"},
+        {"image_file": "16_SiTengil2.webp"}, {"image_file": "17_SiTengil2.webp"}, {"image_file": "18_SiTengil2.webp"}, {"image_file": "19_SiTengil2.webp"}, {"image_file": "20_SiTengil2.webp"},
+        {"image_file": "21_SiTengil2.webp"}, {"image_file": "22_SiTengil2.webp"}, {"image_file": "23_SiTengil2.webp"}, {"image_file": "24_SiTengil2.webp"}
       ]
     }
   ]
