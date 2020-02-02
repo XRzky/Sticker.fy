@@ -1,6 +1,6 @@
 <resources>
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
-    <string name="app_name">WhatsAppSampleStickerApp</string>
+    <string name="app_name">Sticker.fy</string>
     <!-- Content description for the sticker pack tray image -->
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <!-- the title of info button in the menu that takes the user to more information about that pack showing publisher website and so on -->
@@ -17,7 +17,7 @@
     <!-- Title of the sticker pack page when there are multiple sticker packs in the app -->
     <string name="title_activity_sticker_pack_details_multiple_pack">Sticker details</string>
     <!-- Title of the sticker pack info page which displays the webpage, email and privacy policy of the sticker pack -->
-    <string name="title_activity_sticker_pack_info">Info</string>
+    <string name="title_activity_sticker_pack_info">Information</string>
     <!-- Text of button that allows user to click to go to the webpage of the publisher -->
     <string name="view_webpage">View webpage</string>
     <!-- Text of button that allows user to click to send an email -->
@@ -38,4 +38,12 @@
     <string name="add_pack_fail_prompt_update_play_link">Update</string>
     <!-- Toast text when we could not take user to play store because they don't have Google Play app installed -->
     <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">@string/app_name</string>
+
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About</string>
 </resources>

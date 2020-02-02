@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="8dp"
+    android:background="@android:color/white"
     android:layout_marginBottom="@dimen/preview_side_margin"
     android:orientation="vertical">
 
+    <include layout="@layout/app_bar_main" />
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
