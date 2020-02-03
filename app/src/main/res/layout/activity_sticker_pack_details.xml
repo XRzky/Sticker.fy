@@ -5,20 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    android:layout_marginBottom="@dimen/preview_side_margin"
     android:orientation="vertical">
 
     <include layout="@layout/app_bar_main" />
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:layout_marginStart="@dimen/preview_side_margin"
         android:layout_marginLeft="@dimen/preview_side_margin"
         android:layout_marginEnd="@dimen/preview_side_margin"
         android:layout_marginRight="@dimen/preview_side_margin"
-        android:layout_marginBottom="24dp">
-
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
 
         <ImageView
             android:id="@+id/tray_image"
@@ -26,48 +25,101 @@
             android:layout_height="36dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/tray_image_content_description"
             android:src="@color/colorAccent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@color/colorAccent" />
 
-        <TextView
-            android:id="@+id/pack_name"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_from_tray_to_name"
-            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
-            android:layout_marginTop="8dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/tray_image"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Pack Name" />
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/author"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_from_tray_to_name"
-            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
-            android:layout_marginTop="16dp"
-            app:layout_constraintStart_toEndOf="@+id/tray_image"
-            app:layout_constraintTop_toBottomOf="@+id/pack_name"
-            tools:text="Author" />
+            <TextView
+                android:id="@+id/pack_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_from_tray_to_name"
+                android:layout_marginLeft="@dimen/margin_from_tray_to_name"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/tray_image"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Pack Name" />
 
-        <TextView
-            android:id="@+id/pack_size"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_from_tray_to_name"
-            android:layout_marginLeft="@dimen/margin_from_tray_to_name"
-            app:layout_constraintStart_toEndOf="@+id/tray_image"
-            app:layout_constraintTop_toBottomOf="@+id/author"
-            tools:text="Size" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/author"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_from_tray_to_name"
+                        android:layout_marginLeft="@dimen/margin_from_tray_to_name"
+                        android:layout_marginTop="3dp"
+                        app:layout_constraintStart_toEndOf="@+id/tray_image"
+                        app:layout_constraintTop_toBottomOf="@+id/pack_name"
+                        tools:text="Author" />
+
+                    <TextView
+                        android:id="@+id/pack_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_from_tray_to_name"
+                        android:layout_marginLeft="@dimen/margin_from_tray_to_name"
+                        app:layout_constraintStart_toEndOf="@+id/tray_image"
+                        app:layout_constraintTop_toBottomOf="@+id/author"
+                        tools:text="Size" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/already_added_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:enabled="false"
+                            android:text="@string/details_pack_already_added"
+                            android:visibility="gone"
+                            tools:visibility="visible"
+                            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/add_to_whatsapp_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:text="@string/add_to_whatsapp"
+                            app:icon="@drawable/sticker_3rdparty_wa"
+                            app:iconGravity="start"
+                            app:iconPadding="8dp"
+                            style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -95,51 +147,5 @@
             android:visibility="invisible"
             tools:visibility="visible" />
 
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="@dimen/preview_side_margin"
-        android:layout_marginLeft="@dimen/preview_side_margin"
-        android:layout_marginEnd="@dimen/preview_side_margin"
-        android:layout_marginRight="@dimen/preview_side_margin">
-
-        <TextView
-            android:id="@+id/already_added_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="@string/details_pack_already_added"
-            android:textColor="#9B9B9B"
-            android:textSize="14sp"
-            android:visibility="gone"
-            tools:visibility="visible" />
-
-        <FrameLayout
-            android:id="@+id/add_to_whatsapp_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:background="@drawable/btn_green"
-            android:clickable="true"
-            android:focusable="true"
-            android:foreground="?attr/selectableItemBackgroundBorderless">
-
-            <TextView
-                style="@style/StickerPreviewButtonText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@android:color/transparent"
-                android:clickable="false"
-                android:drawableStart="@drawable/sticker_3rdparty_wa"
-                android:drawableLeft="@drawable/sticker_3rdparty_wa"
-                android:drawablePadding="8dp"
-                android:focusable="false"
-                android:foreground="@android:color/transparent"
-                android:text="@string/add_to_whatsapp" />
-        </FrameLayout>
     </FrameLayout>
 </LinearLayout>
