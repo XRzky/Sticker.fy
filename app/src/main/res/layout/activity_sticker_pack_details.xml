@@ -110,7 +110,7 @@
                             android:clickable="true"
                             android:focusable="true"
                             android:text="@string/add_to_whatsapp"
-                            app:icon="@drawable/sticker_3rdparty_wa"
+                            app:icon="@drawable/ic_whatsapp"
                             app:iconGravity="start"
                             app:iconPadding="8dp"
                             style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
