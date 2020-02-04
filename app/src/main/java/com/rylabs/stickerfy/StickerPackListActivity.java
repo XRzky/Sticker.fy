@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.core.app.ShareCompat;
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -77,11 +78,15 @@ public class StickerPackListActivity extends AddStickerPackActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_feedback) {
-
+            startActivity(new Intent(this, FeedbackActivity.class));
         } else if (id == R.id.nav_share) {
-
+            ShareCompat.IntentBuilder.from(this)
+                .setType("text/plain")
+                .setChooserTitle(R.string.share_app)
+                .setText(String.format(getString(R.string.app_share)))
+                .startChooser();
         } else if (id == R.id.nav_about) {
-
+            startActivity(new Intent(this, AboutActivity.class));
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

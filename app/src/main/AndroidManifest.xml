@@ -28,6 +28,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.rylabs.stickerfy.StickerPackListActivity" />
         </activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".FeedbackActivity" />
         <activity
             android:name=".StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"

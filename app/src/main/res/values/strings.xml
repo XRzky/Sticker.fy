@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
     <string name="app_name">Sticker.fy</string>
     <!-- Content description for the sticker pack tray image -->
@@ -39,6 +39,9 @@
     <!-- Toast text when we could not take user to play store because they don't have Google Play app installed -->
     <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
 
+    <string name="share_app">Share app</string>
+    <string name="app_share">Hey check out this cool WhatsApp stickers at: https://github.com/XRzky/Sticker.fy/releases</string>
+    <string name="license_text">The following sets forth attributes notices for third party software that may be contained in portions of the Rylabs Inc. product \n\nCopyright (©) 2017 Sromku \n*Android-Storage* \n\nCopyright (©) 2013 Square, Inc \n*Retrofit* \n\nCopyright (©) 2008 Google Inc \n*Json* \n\nCopyright (©) 2016 Javier Santos \n*AppUpdater* \n\nLicensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. \n\nYou may obtain a copy of the License at \nhttp://www.apache.org/licenses/LICENSE-2.0 \n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">@string/app_name</string>
@@ -46,4 +49,38 @@
     <string name="menu_feedback">Feedback</string>
     <string name="menu_share">Share</string>
     <string name="menu_about">About</string>
+
+    <!-- Feedback Activity -->
+    <string name="feedback">Feedback</string>
+    <string name="feedback_error">This required field!</string>
+    <string name="feedback_toast">Has been sent!</string>
+    <string name="feedback_hint">Your feedback help us to improve. We will contact you on the email you enter here, if it require any further actions.</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_subject">Subject of your feedback!</string>
+    <string name="feedback_message">Message feedback!</string>
+    <string name="feedback_submit">Send</string>
+
+    <!-- About Activity -->
+    <string name="about">About</string>
+    <string name="application">Application</string>
+    <string name="dev">©2020 Rylabs Inc.</string>
+    <string name="version">Version</string>
+    <string name="share">Share</string>
+    <string name="license">Licenses</string>
+    <string name="development">Development</string>
+    <string name="github">GitHub</string>
+    <string name="github_desc">Fork the project on GitHub</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_desc">Subscribe our Telegram channels</string>
+
+    <!-- Developers -->
+    <string name="main_dev_name">Rygent</string>
+    <string name="main_dev_role">Lead developer</string>
+
+    <!-- Changelog Dialog -->
+    <string name="changelog_full_title">Changelog</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">More…</string>
+    <string name="changelog_version_format">Version <xliff:g id="version_name">%s</xliff:g></string>
 </resources>
