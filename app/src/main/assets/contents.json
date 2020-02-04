@@ -56,6 +56,128 @@
         {"image_file": "16_SiTengil2.webp"}, {"image_file": "17_SiTengil2.webp"}, {"image_file": "18_SiTengil2.webp"}, {"image_file": "19_SiTengil2.webp"}, {"image_file": "20_SiTengil2.webp"},
         {"image_file": "21_SiTengil2.webp"}, {"image_file": "22_SiTengil2.webp"}, {"image_file": "23_SiTengil2.webp"}, {"image_file": "24_SiTengil2.webp"}
       ]
+    },{
+      "identifier": "4",
+      "name": "Si Bangkawarah",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_SiBangkawarah.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_SiBangkawarah.webp"}, {"image_file": "02_SiBangkawarah.webp"}, {"image_file": "03_SiBangkawarah.webp"}, {"image_file": "04_SiBangkawarah.webp"}, {"image_file": "05_SiBangkawarah.webp"},
+        {"image_file": "06_SiBangkawarah.webp"}, {"image_file": "07_SiBangkawarah.webp"}, {"image_file": "08_SiBangkawarah.webp"}, {"image_file": "09_SiBangkawarah.webp"}, {"image_file": "10_SiBangkawarah.webp"},
+        {"image_file": "11_SiBangkawarah.webp"}, {"image_file": "12_SiBangkawarah.webp"}, {"image_file": "13_SiBangkawarah.webp"}, {"image_file": "14_SiBangkawarah.webp"}, {"image_file": "15_SiBangkawarah.webp"},
+        {"image_file": "16_SiBangkawarah.webp"}, {"image_file": "17_SiBangkawarah.webp"}, {"image_file": "18_SiBangkawarah.webp"}, {"image_file": "19_SiBangkawarah.webp"}, {"image_file": "20_SiBangkawarah.webp"}
+      ]
+    },{
+      "identifier": "5",
+      "name": "Si Bangkawarah 2",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_SiBangkawarah2.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_SiBangkawarah2.webp"}, {"image_file": "02_SiBangkawarah2.webp"}, {"image_file": "03_SiBangkawarah2.webp"}, {"image_file": "04_SiBangkawarah2.webp"}, {"image_file": "05_SiBangkawarah2.webp"},
+        {"image_file": "06_SiBangkawarah2.webp"}, {"image_file": "07_SiBangkawarah2.webp"}, {"image_file": "08_SiBangkawarah2.webp"}, {"image_file": "09_SiBangkawarah2.webp"}, {"image_file": "10_SiBangkawarah2.webp"},
+        {"image_file": "11_SiBangkawarah2.webp"}, {"image_file": "12_SiBangkawarah2.webp"}, {"image_file": "13_SiBangkawarah2.webp"}, {"image_file": "14_SiBangkawarah2.webp"}, {"image_file": "15_SiBangkawarah2.webp"},
+        {"image_file": "16_SiBangkawarah2.webp"}, {"image_file": "17_SiBangkawarah2.webp"}, {"image_file": "18_SiBangkawarah2.webp"}, {"image_file": "19_SiBangkawarah2.webp"}, {"image_file": "20_SiBangkawarah2.webp"},
+        {"image_file": "21_SiBangkawarah2.webp"}
+      ]
+    },{
+      "identifier": "6",
+      "name": "Doodle",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Doodle.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Doodle.webp"}, {"image_file": "02_Doodle.webp"}, {"image_file": "03_Doodle.webp"}, {"image_file": "04_Doodle.webp"}, {"image_file": "05_Doodle.webp"},
+        {"image_file": "06_Doodle.webp"}, {"image_file": "07_Doodle.webp"}, {"image_file": "08_Doodle.webp"}, {"image_file": "09_Doodle.webp"}, {"image_file": "10_Doodle.webp"},
+        {"image_file": "11_Doodle.webp"}, {"image_file": "12_Doodle.webp"}, {"image_file": "13_Doodle.webp"}, {"image_file": "14_Doodle.webp"}, {"image_file": "15_Doodle.webp"},
+        {"image_file": "16_Doodle.webp"}, {"image_file": "17_Doodle.webp"}, {"image_file": "18_Doodle.webp"}, {"image_file": "19_Doodle.webp"}, {"image_file": "20_Doodle.webp"}
+      ]
+    },{
+      "identifier": "7",
+      "name": "Doodle 2",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Doodle2.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Doodle2.webp"}, {"image_file": "02_Doodle2.webp"}, {"image_file": "03_Doodle2.webp"}, {"image_file": "04_Doodle2.webp"}, {"image_file": "05_Doodle2.webp"},
+        {"image_file": "06_Doodle2.webp"}, {"image_file": "07_Doodle2.webp"}, {"image_file": "08_Doodle2.webp"}, {"image_file": "09_Doodle2.webp"}, {"image_file": "10_Doodle2.webp"},
+        {"image_file": "11_Doodle2.webp"}, {"image_file": "12_Doodle2.webp"}, {"image_file": "13_Doodle2.webp"}, {"image_file": "14_Doodle2.webp"}, {"image_file": "15_Doodle2.webp"},
+        {"image_file": "16_Doodle2.webp"}, {"image_file": "17_Doodle2.webp"}, {"image_file": "18_Doodle2.webp"}, {"image_file": "19_Doodle2.webp"}, {"image_file": "20_Doodle2.webp"}
+      ]
+    },{
+      "identifier": "8",
+      "name": "Anak Gahol",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_AnakGahol.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_AnakGahol.webp"}, {"image_file": "02_AnakGahol.webp"}, {"image_file": "03_AnakGahol.webp"}, {"image_file": "04_AnakGahol.webp"}, {"image_file": "05_AnakGahol.webp"},
+        {"image_file": "06_AnakGahol.webp"}, {"image_file": "07_AnakGahol.webp"}, {"image_file": "08_AnakGahol.webp"}, {"image_file": "09_AnakGahol.webp"}, {"image_file": "10_AnakGahol.webp"},
+        {"image_file": "11_AnakGahol.webp"}, {"image_file": "12_AnakGahol.webp"}, {"image_file": "13_AnakGahol.webp"}, {"image_file": "14_AnakGahol.webp"}, {"image_file": "15_AnakGahol.webp"},
+        {"image_file": "16_AnakGahol.webp"}, {"image_file": "17_AnakGahol.webp"}, {"image_file": "18_AnakGahol.webp"}, {"image_file": "19_AnakGahol.webp"}, {"image_file": "20_AnakGahol.webp"}
+      ]
+    },{
+      "identifier": "9",
+      "name": "Anak Gahol 2",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_AnakGahol2.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_AnakGahol2.webp"}, {"image_file": "02_AnakGahol2.webp"}, {"image_file": "03_AnakGahol2.webp"}, {"image_file": "04_AnakGahol2.webp"}, {"image_file": "05_AnakGahol2.webp"},
+        {"image_file": "06_AnakGahol2.webp"}, {"image_file": "07_AnakGahol2.webp"}, {"image_file": "08_AnakGahol2.webp"}, {"image_file": "09_AnakGahol2.webp"}, {"image_file": "10_AnakGahol2.webp"},
+        {"image_file": "11_AnakGahol2.webp"}, {"image_file": "12_AnakGahol2.webp"}, {"image_file": "13_AnakGahol2.webp"}, {"image_file": "14_AnakGahol2.webp"}, {"image_file": "15_AnakGahol2.webp"},
+        {"image_file": "16_AnakGahol2.webp"}, {"image_file": "17_AnakGahol2.webp"}, {"image_file": "18_AnakGahol2.webp"}, {"image_file": "19_AnakGahol2.webp"}, {"image_file": "20_AnakGahol2.webp"}
+      ]
+    },{
+      "identifier": "10",
+      "name": "Cntlo",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Cntlo.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Cntlo.webp"}, {"image_file": "02_Cntlo.webp"}, {"image_file": "03_Cntlo.webp"}, {"image_file": "04_Cntlo.webp"}, {"image_file": "05_Cntlo.webp"},
+        {"image_file": "06_Cntlo.webp"}, {"image_file": "07_Cntlo.webp"}, {"image_file": "08_Cntlo.webp"}, {"image_file": "09_Cntlo.webp"}, {"image_file": "10_Cntlo.webp"},
+        {"image_file": "11_Cntlo.webp"}, {"image_file": "12_Cntlo.webp"}, {"image_file": "13_Cntlo.webp"}, {"image_file": "14_Cntlo.webp"}, {"image_file": "15_Cntlo.webp"},
+        {"image_file": "16_Cntlo.webp"}, {"image_file": "17_Cntlo.webp"}, {"image_file": "18_Cntlo.webp"}, {"image_file": "19_Cntlo.webp"}, {"image_file": "20_Cntlo.webp"},
+        {"image_file": "21_Cntlo.webp"}, {"image_file": "22_Cntlo.webp"}, {"image_file": "23_Cntlo.webp"}, {"image_file": "24_Cntlo.webp"}, {"image_file": "25_Cntlo.webp"},
+        {"image_file": "26_Cntlo.webp"}, {"image_file": "27_Cntlo.webp"}, {"image_file": "28_Cntlo.webp"}, {"image_file": "29_Cntlo.webp"}, {"image_file": "30_Cntlo.webp"}
+      ]
     }
   ]
 }
