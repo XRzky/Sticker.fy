@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
     <string name="app_name">Sticker.fy</string>
 	<!-- Content description for the sticker pack tray image -->
@@ -39,11 +39,57 @@
 		<item quantity="other">Paket Stiker</item>
 	</plurals>
 
-    <string name="navigation_drawer_open">Buka navigasi</string>
+	<string name="share_app">Bagikan apl</string>
+	<string name="app_share">Hei, lihat stiker WhatsApp keren ini di: https://github.com/XRzky/Sticker.fy/releases</string>
+	<string name="navigation_drawer_open">Buka navigasi</string>
     <string name="navigation_drawer_close">Tutup navigasi</string>
     <string name="nav_header_title">@string/app_name</string>
 
     <string name="menu_feedback">Masukkan</string>
     <string name="menu_share">Bagikan</string>
     <string name="menu_about">Tentang</string>
+
+	<!-- Feedback Activity -->
+	<string name="feedback">Masukan</string>
+	<string name="feedback_error">Ini wajib diisi!</string>
+	<string name="feedback_toast">Telah dikirim!</string>
+	<string name="feedback_hint">Masukkan kamu membantu kami untuk meningkatkan. Kami akan menghubungi kamu melalui email yang kamu masukkan di sini, jika memerlukan tindakan lebih lanjut.</string>
+    <string name="feedback_name">Nama</string>
+    <string name="feedback_email">Email</string>
+	<string name="feedback_subject">Subjek</string>
+	<string name="feedback_message">Pesan</string>
+	<string name="feedback_submit">Kirim</string>
+
+	<!-- About Activity -->
+	<string name="about">Tentang</string>
+	<string name="application">Aplikasi</string>
+	<string name="dev">©2020 Rylabs Inc.</string>
+	<string name="version">Versi</string>
+	<string name="share">Bagikam</string>
+	<string name="license">Lisensi</string>
+	<string name="changelog">Log perubahan</string>
+	<string name="update">Perbarui</string>
+	<string name="update_desc">Cek untuk memperbarui</string>
+	<string name="development">Pengembang</string>
+	<string name="github">GitHub</string>
+	<string name="github_desc">Fork the project on GitHub</string>
+	<string name="telegram">Telegram</string>
+	<string name="telegram_desc">Berlangganan saluran Telegram kami</string>
+    <string name="made_with_love">Dibuat dengan ❤️ di Indonesia</string>
+
+	<!-- Developers -->
+	<string name="main_dev_name">Rygent</string>
+	<string name="main_dev_role">Pengembang utama</string>
+
+	<!-- Changelog Dialog -->
+	<string name="changelog_full_title">Log perubahan</string>
+	<string name="changelog_title">Apa yang baru</string>
+	<string name="changelog_ok_button">OKE</string>
+	<string name="changelog_show_full">Lainnya</string>
+	<string name="changelog_version_format">Versi <xliff:g id="version_name">%s</xliff:g></string>
+
+	<!-- Updater -->
+	<string name="update_available">Pembaruan v%1$s telah tersedia!</string>
+	<string name="update_no_available">Anda sudah menggunakan versi terbaru!</string>
+	<string name="update_button">Perbarui</string>
 </resources>
