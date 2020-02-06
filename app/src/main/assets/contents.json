@@ -178,6 +178,271 @@
         {"image_file": "21_Cntlo.webp"}, {"image_file": "22_Cntlo.webp"}, {"image_file": "23_Cntlo.webp"}, {"image_file": "24_Cntlo.webp"}, {"image_file": "25_Cntlo.webp"},
         {"image_file": "26_Cntlo.webp"}, {"image_file": "27_Cntlo.webp"}, {"image_file": "28_Cntlo.webp"}, {"image_file": "29_Cntlo.webp"}, {"image_file": "30_Cntlo.webp"}
       ]
+    },{
+      "identifier": "11",
+      "name": "Cntlo 2",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Cntlo2.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Cntlo2.webp"}, {"image_file": "02_Cntlo2.webp"}, {"image_file": "03_Cntlo2.webp"}, {"image_file": "04_Cntlo2.webp"}, {"image_file": "05_Cntlo2.webp"},
+        {"image_file": "06_Cntlo2.webp"}, {"image_file": "07_Cntlo2.webp"}, {"image_file": "08_Cntlo2.webp"}, {"image_file": "09_Cntlo2.webp"}, {"image_file": "10_Cntlo2.webp"},
+        {"image_file": "11_Cntlo2.webp"}, {"image_file": "12_Cntlo2.webp"}, {"image_file": "13_Cntlo2.webp"}, {"image_file": "14_Cntlo2.webp"}, {"image_file": "15_Cntlo2.webp"},
+        {"image_file": "16_Cntlo2.webp"}, {"image_file": "17_Cntlo2.webp"}, {"image_file": "18_Cntlo2.webp"}, {"image_file": "19_Cntlo2.webp"}, {"image_file": "20_Cntlo2.webp"},
+        {"image_file": "21_Cntlo2.webp"}, {"image_file": "22_Cntlo2.webp"}, {"image_file": "23_Cntlo2.webp"}, {"image_file": "24_Cntlo2.webp"}, {"image_file": "25_Cntlo2.webp"}
+      ]
+    },{
+      "identifier": "12",
+      "name": "Anak Yimyam",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_AnakYimyam.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_AnakYimyam.webp"}, {"image_file": "02_AnakYimyam.webp"}, {"image_file": "03_AnakYimyam.webp"}, {"image_file": "04_AnakYimyam.webp"}, {"image_file": "05_AnakYimyam.webp"},
+        {"image_file": "06_AnakYimyam.webp"}, {"image_file": "07_AnakYimyam.webp"}, {"image_file": "08_AnakYimyam.webp"}, {"image_file": "09_AnakYimyam.webp"}, {"image_file": "10_AnakYimyam.webp"},
+        {"image_file": "11_AnakYimyam.webp"}, {"image_file": "12_AnakYimyam.webp"}, {"image_file": "13_AnakYimyam.webp"}, {"image_file": "14_AnakYimyam.webp"}, {"image_file": "15_AnakYimyam.webp"},
+        {"image_file": "16_AnakYimyam.webp"}, {"image_file": "17_AnakYimyam.webp"}, {"image_file": "18_AnakYimyam.webp"}, {"image_file": "19_AnakYimyam.webp"}, {"image_file": "20_AnakYimyam.webp"}
+      ]
+    },{
+      "identifier": "13",
+      "name": "Anak Yimyam 2",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_AnakYimyam2.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_AnakYimyam2.webp"}, {"image_file": "02_AnakYimyam2.webp"}, {"image_file": "03_AnakYimyam2.webp"}, {"image_file": "04_AnakYimyam2.webp"}, {"image_file": "05_AnakYimyam2.webp"},
+        {"image_file": "06_AnakYimyam2.webp"}, {"image_file": "07_AnakYimyam2.webp"}, {"image_file": "08_AnakYimyam2.webp"}, {"image_file": "09_AnakYimyam2.webp"}, {"image_file": "10_AnakYimyam2.webp"},
+        {"image_file": "11_AnakYimyam2.webp"}, {"image_file": "12_AnakYimyam2.webp"}, {"image_file": "13_AnakYimyam2.webp"}, {"image_file": "14_AnakYimyam2.webp"}, {"image_file": "15_AnakYimyam2.webp"},
+        {"image_file": "16_AnakYimyam2.webp"}, {"image_file": "17_AnakYimyam2.webp"}, {"image_file": "18_AnakYimyam2.webp"}, {"image_file": "19_AnakYimyam2.webp"}, {"image_file": "20_AnakYimyam2.webp"}
+      ]
+    },{
+      "identifier": "14",
+      "name": "PatrickBob",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_PatrickBob.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_PatrickBob.webp"}, {"image_file": "02_PatrickBob.webp"}, {"image_file": "03_PatrickBob.webp"}, {"image_file": "04_PatrickBob.webp"}, {"image_file": "05_PatrickBob.webp"},
+        {"image_file": "06_PatrickBob.webp"}, {"image_file": "07_PatrickBob.webp"}, {"image_file": "08_PatrickBob.webp"}, {"image_file": "09_PatrickBob.webp"}, {"image_file": "10_PatrickBob.webp"},
+        {"image_file": "11_PatrickBob.webp"}, {"image_file": "12_PatrickBob.webp"}, {"image_file": "13_PatrickBob.webp"}, {"image_file": "14_PatrickBob.webp"}, {"image_file": "15_PatrickBob.webp"},
+        {"image_file": "16_PatrickBob.webp"}, {"image_file": "17_PatrickBob.webp"}, {"image_file": "18_PatrickBob.webp"}, {"image_file": "19_PatrickBob.webp"}, {"image_file": "20_PatrickBob.webp"},
+        {"image_file": "21_PatrickBob.webp"}, {"image_file": "22_PatrickBob.webp"}, {"image_file": "23_PatrickBob.webp"}, {"image_file": "24_PatrickBob.webp"}, {"image_file": "25_PatrickBob.webp"},
+        {"image_file": "26_PatrickBob.webp"}, {"image_file": "27_PatrickBob.webp"}, {"image_file": "28_PatrickBob.webp"}, {"image_file": "29_PatrickBob.webp"}, {"image_file": "30_PatrickBob.webp"}
+      ]
+    },{
+      "identifier": "15",
+      "name": "Avengers Heroes",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_AvengersHeroes.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_AvengersHeroes.webp"}, {"image_file": "02_AvengersHeroes.webp"}, {"image_file": "03_AvengersHeroes.webp"}, {"image_file": "04_AvengersHeroes.webp"}, {"image_file": "05_AvengersHeroes.webp"},
+        {"image_file": "06_AvengersHeroes.webp"}, {"image_file": "07_AvengersHeroes.webp"}, {"image_file": "08_AvengersHeroes.webp"}, {"image_file": "09_AvengersHeroes.webp"}, {"image_file": "10_AvengersHeroes.webp"},
+        {"image_file": "11_AvengersHeroes.webp"}, {"image_file": "12_AvengersHeroes.webp"}, {"image_file": "13_AvengersHeroes.webp"}, {"image_file": "14_AvengersHeroes.webp"}, {"image_file": "15_AvengersHeroes.webp"},
+        {"image_file": "16_AvengersHeroes.webp"}, {"image_file": "17_AvengersHeroes.webp"}, {"image_file": "18_AvengersHeroes.webp"}, {"image_file": "19_AvengersHeroes.webp"}, {"image_file": "20_AvengersHeroes.webp"},
+        {"image_file": "21_AvengersHeroes.webp"}, {"image_file": "22_AvengersHeroes.webp"}, {"image_file": "23_AvengersHeroes.webp"}, {"image_file": "24_AvengersHeroes.webp"}, {"image_file": "25_AvengersHeroes.webp"}
+      ]
+    },{
+      "identifier": "16",
+      "name": "Keanu Reeves",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_KeanuReeves.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_KeanuReeves.webp"}, {"image_file": "02_KeanuReeves.webp"}, {"image_file": "03_KeanuReeves.webp"}, {"image_file": "04_KeanuReeves.webp"}, {"image_file": "05_KeanuReeves.webp"},
+        {"image_file": "06_KeanuReeves.webp"}, {"image_file": "07_KeanuReeves.webp"}, {"image_file": "08_KeanuReeves.webp"}, {"image_file": "09_KeanuReeves.webp"}, {"image_file": "10_KeanuReeves.webp"},
+        {"image_file": "11_KeanuReeves.webp"}, {"image_file": "12_KeanuReeves.webp"}, {"image_file": "13_KeanuReeves.webp"}, {"image_file": "14_KeanuReeves.webp"}, {"image_file": "15_KeanuReeves.webp"},
+        {"image_file": "16_KeanuReeves.webp"}, {"image_file": "17_KeanuReeves.webp"}, {"image_file": "18_KeanuReeves.webp"}, {"image_file": "19_KeanuReeves.webp"}, {"image_file": "20_KeanuReeves.webp"},
+        {"image_file": "21_KeanuReeves.webp"}, {"image_file": "22_KeanuReeves.webp"}, {"image_file": "23_KeanuReeves.webp"}, {"image_file": "24_KeanuReeves.webp"}, {"image_file": "25_KeanuReeves.webp"}
+      ]
+    },{
+      "identifier": "17",
+      "name": "Harley Quinn",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_LoveHarley.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_LoveHarley.webp"}, {"image_file": "02_LoveHarley.webp"}, {"image_file": "03_LoveHarley.webp"}, {"image_file": "04_LoveHarley.webp"}, {"image_file": "05_LoveHarley.webp"},
+        {"image_file": "06_LoveHarley.webp"}, {"image_file": "07_LoveHarley.webp"}, {"image_file": "08_LoveHarley.webp"}, {"image_file": "09_LoveHarley.webp"}, {"image_file": "10_LoveHarley.webp"},
+        {"image_file": "11_LoveHarley.webp"}, {"image_file": "12_LoveHarley.webp"}, {"image_file": "13_LoveHarley.webp"}, {"image_file": "14_LoveHarley.webp"}, {"image_file": "15_LoveHarley.webp"},
+        {"image_file": "16_LoveHarley.webp"}, {"image_file": "17_LoveHarley.webp"}, {"image_file": "18_LoveHarley.webp"}, {"image_file": "19_LoveHarley.webp"}, {"image_file": "20_LoveHarley.webp"},
+        {"image_file": "21_LoveHarley.webp"}, {"image_file": "22_LoveHarley.webp"}, {"image_file": "23_LoveHarley.webp"}, {"image_file": "24_LoveHarley.webp"}, {"image_file": "25_LoveHarley.webp"}
+      ]
+    },{
+      "identifier": "18",
+      "name": "Preman Varokah",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Preman.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Preman.webp"}, {"image_file": "02_Preman.webp"}, {"image_file": "03_Preman.webp"}, {"image_file": "04_Preman.webp"}, {"image_file": "05_Preman.webp"},
+        {"image_file": "06_Preman.webp"}, {"image_file": "07_Preman.webp"}, {"image_file": "08_Preman.webp"}, {"image_file": "09_Preman.webp"}, {"image_file": "10_Preman.webp"},
+        {"image_file": "11_Preman.webp"}, {"image_file": "12_Preman.webp"}, {"image_file": "13_Preman.webp"}, {"image_file": "14_Preman.webp"}, {"image_file": "15_Preman.webp"},
+        {"image_file": "16_Preman.webp"}, {"image_file": "17_Preman.webp"}, {"image_file": "18_Preman.webp"}, {"image_file": "19_Preman.webp"}, {"image_file": "20_Preman.webp"},
+        {"image_file": "21_Preman.webp"}, {"image_file": "22_Preman.webp"}, {"image_file": "23_Preman.webp"}, {"image_file": "24_Preman.webp"}, {"image_file": "25_Preman.webp"},
+        {"image_file": "26_Preman.webp"}, {"image_file": "27_Preman.webp"}, {"image_file": "28_Preman.webp"}, {"image_file": "29_Preman.webp"}, {"image_file": "30_Preman.webp"}
+      ]
+    },{
+      "identifier": "19",
+      "name": "Preman Varokah 2",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Preman2.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Preman2.webp"}, {"image_file": "02_Preman2.webp"}, {"image_file": "03_Preman2.webp"}, {"image_file": "04_Preman2.webp"}, {"image_file": "05_Preman2.webp"},
+        {"image_file": "06_Preman2.webp"}, {"image_file": "07_Preman2.webp"}, {"image_file": "08_Preman2.webp"}, {"image_file": "09_Preman2.webp"}, {"image_file": "10_Preman2.webp"},
+        {"image_file": "11_Preman2.webp"}, {"image_file": "12_Preman2.webp"}, {"image_file": "13_Preman2.webp"}, {"image_file": "14_Preman2.webp"}, {"image_file": "15_Preman2.webp"},
+        {"image_file": "16_Preman2.webp"}, {"image_file": "17_Preman2.webp"}, {"image_file": "18_Preman2.webp"}, {"image_file": "19_Preman2.webp"}, {"image_file": "20_Preman2.webp"},
+        {"image_file": "21_Preman2.webp"}, {"image_file": "22_Preman2.webp"}, {"image_file": "23_Preman2.webp"}, {"image_file": "24_Preman2.webp"}, {"image_file": "25_Preman2.webp"},
+        {"image_file": "26_Preman2.webp"}, {"image_file": "27_Preman2.webp"}, {"image_file": "28_Preman2.webp"}, {"image_file": "29_Preman2.webp"}, {"image_file": "30_Preman2.webp"}
+      ]
+    },
+    {
+      "identifier": "20",
+      "name": "Preman Varokah 3",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Preman3.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Preman3.webp"}, {"image_file": "02_Preman3.webp"}, {"image_file": "03_Preman3.webp"}, {"image_file": "04_Preman3.webp"}, {"image_file": "05_Preman3.webp"},
+        {"image_file": "06_Preman3.webp"}, {"image_file": "07_Preman3.webp"}, {"image_file": "08_Preman3.webp"}, {"image_file": "09_Preman3.webp"}, {"image_file": "10_Preman3.webp"},
+        {"image_file": "11_Preman3.webp"}, {"image_file": "12_Preman3.webp"}, {"image_file": "13_Preman3.webp"}, {"image_file": "14_Preman3.webp"}, {"image_file": "15_Preman3.webp"},
+        {"image_file": "16_Preman3.webp"}, {"image_file": "17_Preman3.webp"}, {"image_file": "18_Preman3.webp"}, {"image_file": "19_Preman3.webp"}, {"image_file": "20_Preman3.webp"}
+      ]
+    },{
+      "identifier": "21",
+      "name": "Wonder Woman",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_WonderWomanDC.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_WonderWomanDC.webp"}, {"image_file": "02_WonderWomanDC.webp"}, {"image_file": "03_WonderWomanDC.webp"}, {"image_file": "04_WonderWomanDC.webp"}, {"image_file": "05_WonderWomanDC.webp"},
+        {"image_file": "06_WonderWomanDC.webp"}, {"image_file": "07_WonderWomanDC.webp"}, {"image_file": "08_WonderWomanDC.webp"}, {"image_file": "09_WonderWomanDC.webp"}, {"image_file": "10_WonderWomanDC.webp"},
+        {"image_file": "11_WonderWomanDC.webp"}, {"image_file": "12_WonderWomanDC.webp"}, {"image_file": "13_WonderWomanDC.webp"}, {"image_file": "14_WonderWomanDC.webp"}, {"image_file": "15_WonderWomanDC.webp"},
+        {"image_file": "16_WonderWomanDC.webp"}, {"image_file": "17_WonderWomanDC.webp"}, {"image_file": "18_WonderWomanDC.webp"}, {"image_file": "19_WonderWomanDC.webp"}, {"image_file": "20_WonderWomanDC.webp"},
+        {"image_file": "21_WonderWomanDC.webp"}, {"image_file": "22_WonderWomanDC.webp"}, {"image_file": "23_WonderWomanDC.webp"}, {"image_file": "24_WonderWomanDC.webp"}, {"image_file": "25_WonderWomanDC.webp"}
+      ]
+    },{
+      "identifier": "22",
+      "name": "Joker",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Joker.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Joker.webp"}, {"image_file": "02_Joker.webp"}, {"image_file": "03_Joker.webp"}, {"image_file": "04_Joker.webp"}, {"image_file": "05_Joker.webp"},
+        {"image_file": "06_Joker.webp"}, {"image_file": "07_Joker.webp"}, {"image_file": "08_Joker.webp"}, {"image_file": "09_Joker.webp"}, {"image_file": "10_Joker.webp"},
+        {"image_file": "11_Joker.webp"}, {"image_file": "12_Joker.webp"}, {"image_file": "13_Joker.webp"}, {"image_file": "14_Joker.webp"}, {"image_file": "15_Joker.webp"},
+        {"image_file": "16_Joker.webp"}, {"image_file": "17_Joker.webp"}, {"image_file": "18_Joker.webp"}, {"image_file": "19_Joker.webp"}, {"image_file": "20_Joker.webp"},
+        {"image_file": "21_Joker.webp"}, {"image_file": "22_Joker.webp"}, {"image_file": "23_Joker.webp"}, {"image_file": "24_Joker.webp"}, {"image_file": "25_Joker.webp"}
+      ]
+    },{
+      "identifier": "23",
+      "name": "Resistance Girl",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_ResistanceGirl.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_ResistanceGirl.webp"}, {"image_file": "02_ResistanceGirl.webp"}, {"image_file": "03_ResistanceGirl.webp"}, {"image_file": "04_ResistanceGirl.webp"}, {"image_file": "05_ResistanceGirl.webp"},
+        {"image_file": "06_ResistanceGirl.webp"}, {"image_file": "07_ResistanceGirl.webp"}, {"image_file": "08_ResistanceGirl.webp"}, {"image_file": "09_ResistanceGirl.webp"}, {"image_file": "10_ResistanceGirl.webp"},
+        {"image_file": "11_ResistanceGirl.webp"}, {"image_file": "12_ResistanceGirl.webp"}, {"image_file": "13_ResistanceGirl.webp"}, {"image_file": "14_ResistanceGirl.webp"}, {"image_file": "15_ResistanceGirl.webp"},
+        {"image_file": "16_ResistanceGirl.webp"}, {"image_file": "17_ResistanceGirl.webp"}, {"image_file": "18_ResistanceGirl.webp"}, {"image_file": "19_ResistanceGirl.webp"}, {"image_file": "20_ResistanceGirl.webp"},
+        {"image_file": "21_ResistanceGirl.webp"}, {"image_file": "22_ResistanceGirl.webp"}, {"image_file": "23_ResistanceGirl.webp"}, {"image_file": "24_ResistanceGirl.webp"}, {"image_file": "25_ResistanceGirl.webp"}
+      ]
+    },{
+      "identifier": "24",
+      "name": "Kata Cinta Nora Alexandra",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_Nora.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_Nora.webp"}, {"image_file": "02_Nora.webp"}, {"image_file": "03_Nora.webp"}, {"image_file": "04_Nora.webp"}, {"image_file": "05_Nora.webp"},
+        {"image_file": "06_Nora.webp"}, {"image_file": "07_Nora.webp"}, {"image_file": "08_Nora.webp"}
+      ]
+    },{
+      "identifier": "25",
+      "name": "Si Imut Ayuonyes",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_AyuOnyes.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_AyuOnyes.webp"}, {"image_file": "02_AyuOnyes.webp"}, {"image_file": "03_AyuOnyes.webp"}, {"image_file": "04_AyuOnyes.webp"}, {"image_file": "05_AyuOnyes.webp"},
+        {"image_file": "06_AyuOnyes.webp"}, {"image_file": "07_AyuOnyes.webp"}, {"image_file": "08_AyuOnyes.webp"}
+      ]
     }
   ]
 }
