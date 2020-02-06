@@ -9,10 +9,8 @@
 package com.rylabs.stickerfy;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 
 import androidx.core.app.ShareCompat;
