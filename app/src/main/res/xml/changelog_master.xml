@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+
+    <release version="1.0.6" versioncode="7" >
+        <change>Added About application</change>
+        <change>Added Feedback form</change>
+        <change>Translation Indonesian</change>
+        <change>Other bug fixes &amp; improvements</change>
+    </release>
+
+    <release version="1.0.4" versioncode="5" >
+        <change>Added Navigation Drawer</change>
+        <change>Replace ActionBar to Toolbar</change>
+        <change>Add back 3 stickers from previous apps</change>
+        <change>Replace all background colors to white</change>
+        <change>New accent colors</change>
+        <change>Replace all icons</change>
+        <change>[Fix] Glitch long name stickers</change>
+    </release>
+
+    <release version="1.0.0" versioncode="1">
+        <change>Initial Build</change>
+        <change>Change name &amp; package name from previous apps</change>
+        <change>[Update] New source from December 2019</change>
+    </release>
+
+</changelog>

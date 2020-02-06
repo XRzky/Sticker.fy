@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 
+apply plugin: 'com.google.gms.google-services'
+
 android {
     //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
     aaptOptions {
@@ -112,5 +114,8 @@ dependencies {
     implementation 'com.facebook.fresco:animated-webp:2.1.0'
     implementation 'com.facebook.fresco:animated-base:2.1.0'
 
+    implementation 'com.firebase:firebase-client-android:2.5.2'
+
     implementation 'com.github.javiersantos:AppUpdater:2.7'
+    implementation 'de.cketti.library.changelog:ckchangelog:1.2.2'
 }

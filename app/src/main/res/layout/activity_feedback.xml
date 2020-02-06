@@ -51,6 +51,23 @@
                 android:layout_marginTop="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/namedata"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/feedback_name"
+                    android:inputType="textPersonName"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/emaildata"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -73,8 +90,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="start|top"
                     android:hint="@string/feedback_subject"
-                    android:lines="3"
-                    android:maxLines="3" />
+                    android:lines="2"
+                    android:maxLines="2" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout

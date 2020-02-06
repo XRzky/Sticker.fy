@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "144407121071",
+    "firebase_url": "https://stickerfy-a1fbe.firebaseio.com",
+    "project_id": "stickerfy-a1fbe",
+    "storage_bucket": "stickerfy-a1fbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144407121071:android:a67a47f602da975d1a185a",
+        "android_client_info": {
+          "package_name": "com.rylabs.stickerfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144407121071-260fd85be2begamieuimu7eq8ic8c4mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJSN4cUI2uOfpuTUc3gFVxJLEBBbdfmn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144407121071-260fd85be2begamieuimu7eq8ic8c4mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

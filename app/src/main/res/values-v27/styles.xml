@@ -14,6 +14,10 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/white</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- Material alert dialog -->
+        <item name="materialAlertDialogTheme">@style/AppTheme.AlertDialog</item>
+        <!-- Button style for preferences etc. -->
+        <item name="materialButtonStyle">@style/AppTheme.Button</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="@style/Widget.MaterialComponents.Toolbar">
@@ -49,6 +53,10 @@
 
     <style name="AppTheme.TextAppearance.Subheader.Accent" parent="TextAppearance.MaterialComponents.Subtitle2">
         <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewBody1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/googlesans</item>
     </style>
 
 </resources>

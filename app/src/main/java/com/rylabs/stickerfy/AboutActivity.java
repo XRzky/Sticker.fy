@@ -10,14 +10,20 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ShareCompat;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.github.javiersantos.appupdater.AppUpdater;
+import com.github.javiersantos.appupdater.enums.Display;
+import com.github.javiersantos.appupdater.enums.Duration;
+import com.github.javiersantos.appupdater.enums.UpdateFrom;
 import com.google.android.material.appbar.MaterialToolbar;
+
+import de.cketti.library.changelog.ChangeLog;
 
 public class AboutActivity extends BaseActivity implements View.OnClickListener {
 
-    LinearLayout share, license, github, telegram;
+    LinearLayout share, license, changelog, update, github, telegram;
     String version;
     TextView versionText;
 
@@ -43,11 +49,15 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener 
 
         share = (LinearLayout) findViewById(R.id.share);
         license = (LinearLayout) findViewById(R.id.license);
+        changelog = (LinearLayout) findViewById(R.id.changelog);
+        update = (LinearLayout) findViewById(R.id.update);
         github = (LinearLayout) findViewById(R.id.github);
         telegram = (LinearLayout) findViewById(R.id.telegram);
 
         share.setOnClickListener(this);
         license.setOnClickListener(this);
+        changelog.setOnClickListener(this);
+        update.setOnClickListener(this);
         github.setOnClickListener(this);
         telegram.setOnClickListener(this);
 
@@ -67,16 +77,33 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener 
                 break;
 
             case R.id.license:
-                new MaterialAlertDialogBuilder(AboutActivity.this)
-                        .setTitle(R.string.license)
-                        .setMessage(R.string.license_text)
-                        .setPositiveButton(R.string.changelog_ok_button, new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        })
-                        .show();
+                new AlertDialog.Builder(AboutActivity.this)
+                    .setTitle(R.string.license)
+                    .setMessage(R.string.license_text)
+                    .setPositiveButton(R.string.changelog_ok_button, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    })
+                    .show();
+                break;
+
+            case R.id.changelog:
+                new ChangeLog(this).getFullLogDialog().show();
+                break;
+
+            case R.id.update:
+                new AppUpdater(this)
+                    .setUpdateFrom(UpdateFrom.JSON)
+                    .setUpdateJSON("https://raw.githubusercontent.com/XRzky/Sticker.fy/master/app/update-changelog.json")
+                    .setDisplay(Display.SNACKBAR)
+                    .setContentOnUpdateAvailable(R.string.update_available)
+                    .setContentOnUpdateNotAvailable(R.string.update_no_available)
+                    .setButtonDismiss(R.string.update_button)
+                    .setDuration(Duration.NORMAL)
+                    .showAppUpdated(true)
+                    .start();
                 break;
 
             case R.id.github:
@@ -89,7 +116,7 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener 
             case R.id.telegram:
                 Intent telegram = new Intent();
                 telegram.setAction(Intent.ACTION_VIEW);
-                telegram.setData(Uri.parse("http://t.me/RygentRepo"));
+                telegram.setData(Uri.parse("http://t.me/Rylabs"));
                 startActivity(telegram);
                 break;
 

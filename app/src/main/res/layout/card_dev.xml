@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
@@ -65,13 +65,13 @@
                 android:minHeight="30dp"
                 android:layout_weight="1">
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/main_dev_name"
                     android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/app_versiondfg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -124,13 +124,13 @@
                 android:minHeight="30dp"
                 android:layout_weight="1">
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/github"
                     android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/github_desc"
@@ -182,13 +182,13 @@
                 android:minHeight="30dp"
                 android:layout_weight="1">
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/telegram"
                     android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/telegram_desc"
@@ -196,6 +196,15 @@
 
             </LinearLayout>
         </LinearLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/madeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/made_with_love"
+            android:textAppearance="@style/TextViewBody1" />
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>

@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
@@ -61,12 +61,12 @@
                 android:layout_marginEnd="16dp"
                 android:minHeight="30dp"
                 android:layout_weight="1">
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/app_name"
                     android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/dev"
@@ -110,12 +110,12 @@
                 android:layout_marginEnd="16dp"
                 android:minHeight="30dp"
                 android:layout_weight="1">
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/version"
                     android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/app_version"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                 android:layout_marginEnd="16dp"
                 android:minHeight="30dp"
                 android:layout_weight="1">
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/shareit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -212,12 +212,118 @@
                 android:layout_marginEnd="16dp"
                 android:minHeight="30dp"
                 android:layout_weight="1">
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:id="@+id/licenseit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/license"
                     android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/changelog"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:minHeight="30dp">
+            <ImageView
+                android:id="@+id/icon_info54"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:src="@drawable/ic_changelog"
+                app:tint="@android:color/black"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:minHeight="30dp"
+                android:layout_weight="1">
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/changelogit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/changelog"
+                    android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/update"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:minHeight="30dp">
+
+            <ImageView
+                android:id="@+id/icon_infofg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:src="@drawable/ic_update"
+                app:tint="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:minHeight="30dp"
+                android:layout_weight="1">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update"
+                    android:textAppearance="@style/AppTheme.TextAppearance.Subheader"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update_desc"
+                    android:textAppearance="@style/AppTheme.TextAppearance.Caption"/>
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
