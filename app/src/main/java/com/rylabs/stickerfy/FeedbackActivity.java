@@ -1,6 +1,7 @@
 package com.rylabs.stickerfy;
 
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 
 import com.firebase.client.Firebase;
@@ -33,7 +34,11 @@ public class FeedbackActivity extends BaseActivity {
         fab = findViewById(R.id.btn_send);
         Firebase.setAndroidContext(this);
 
-        feedback = new Firebase("https://stickerfy-a1fbe.firebaseio.com");
+        String UniqueID =
+                Settings.Secure.getString(getApplicationContext().getContentResolver(),
+                        Settings.Secure.ANDROID_ID);
+
+        feedback = new Firebase("https://stickerfy-a1fbe.firebaseio.com/Users" + UniqueID);
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
