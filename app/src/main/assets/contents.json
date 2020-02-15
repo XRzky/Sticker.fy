@@ -415,6 +415,81 @@
       ]
     },{
       "identifier": "24",
+      "name": "Billie Eilish",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_BillieEilish.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_BillieEilish.webp"}, {"image_file": "02_BillieEilish.webp"}, {"image_file": "03_BillieEilish.webp"}, {"image_file": "04_BillieEilish.webp"}, {"image_file": "05_BillieEilish.webp"},
+        {"image_file": "06_BillieEilish.webp"}, {"image_file": "07_BillieEilish.webp"}, {"image_file": "08_BillieEilish.webp"}, {"image_file": "09_BillieEilish.webp"}, {"image_file": "10_BillieEilish.webp"},
+        {"image_file": "11_BillieEilish.webp"}, {"image_file": "12_BillieEilish.webp"}, {"image_file": "13_BillieEilish.webp"}, {"image_file": "14_BillieEilish.webp"}, {"image_file": "15_BillieEilish.webp"},
+        {"image_file": "16_BillieEilish.webp"}, {"image_file": "17_BillieEilish.webp"}, {"image_file": "18_BillieEilish.webp"}, {"image_file": "19_BillieEilish.webp"}, {"image_file": "20_BillieEilish.webp"},
+        {"image_file": "21_BillieEilish.webp"}, {"image_file": "22_BillieEilish.webp"}, {"image_file": "23_BillieEilish.webp"}, {"image_file": "24_BillieEilish.webp"}, {"image_file": "25_BillieEilish.webp"},
+        {"image_file": "26_BillieEilish.webp"}, {"image_file": "27_BillieEilish.webp"}, {"image_file": "28_BillieEilish.webp"}, {"image_file": "29_BillieEilish.webp"}, {"image_file": "30_BillieEilish.webp"}
+      ]
+    },{
+      "identifier": "25",
+      "name": "Meme Police",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_MemePolice.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_MemePolice.webp"}, {"image_file": "02_MemePolice.webp"}, {"image_file": "03_MemePolice.webp"}, {"image_file": "04_MemePolice.webp"}, {"image_file": "05_MemePolice.webp"},
+        {"image_file": "06_MemePolice.webp"}, {"image_file": "07_MemePolice.webp"}, {"image_file": "08_MemePolice.webp"}, {"image_file": "09_MemePolice.webp"}, {"image_file": "10_MemePolice.webp"},
+        {"image_file": "11_MemePolice.webp"}, {"image_file": "12_MemePolice.webp"}, {"image_file": "13_MemePolice.webp"}, {"image_file": "14_MemePolice.webp"}, {"image_file": "15_MemePolice.webp"},
+        {"image_file": "16_MemePolice.webp"}, {"image_file": "17_MemePolice.webp"}, {"image_file": "18_MemePolice.webp"}, {"image_file": "19_MemePolice.webp"}, {"image_file": "20_MemePolice.webp"},
+        {"image_file": "21_MemePolice.webp"}, {"image_file": "22_MemePolice.webp"}, {"image_file": "23_MemePolice.webp"}, {"image_file": "24_MemePolice.webp"}, {"image_file": "25_MemePolice.webp"},
+        {"image_file": "26_MemePolice.webp"}, {"image_file": "27_MemePolice.webp"}, {"image_file": "28_MemePolice.webp"}, {"image_file": "29_MemePolice.webp"}, {"image_file": "30_MemePolice.webp"}
+      ]
+    },{
+      "identifier": "26",
+      "name": "Playboy Girls",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_PlayboyGirls.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_PlayboyGirls.webp"}, {"image_file": "02_PlayboyGirls.webp"}, {"image_file": "03_PlayboyGirls.webp"}, {"image_file": "04_PlayboyGirls.webp"}, {"image_file": "05_PlayboyGirls.webp"},
+        {"image_file": "06_PlayboyGirls.webp"}, {"image_file": "07_PlayboyGirls.webp"}, {"image_file": "08_PlayboyGirls.webp"}, {"image_file": "09_PlayboyGirls.webp"}, {"image_file": "10_PlayboyGirls.webp"},
+        {"image_file": "11_PlayboyGirls.webp"}, {"image_file": "12_PlayboyGirls.webp"}, {"image_file": "13_PlayboyGirls.webp"}, {"image_file": "14_PlayboyGirls.webp"}, {"image_file": "15_PlayboyGirls.webp"},
+        {"image_file": "16_PlayboyGirls.webp"}, {"image_file": "17_PlayboyGirls.webp"}, {"image_file": "18_PlayboyGirls.webp"}, {"image_file": "19_PlayboyGirls.webp"}, {"image_file": "20_PlayboyGirls.webp"},
+        {"image_file": "21_PlayboyGirls.webp"}, {"image_file": "22_PlayboyGirls.webp"}, {"image_file": "23_PlayboyGirls.webp"}, {"image_file": "24_PlayboyGirls.webp"}, {"image_file": "25_PlayboyGirls.webp"},
+        {"image_file": "26_PlayboyGirls.webp"}, {"image_file": "27_PlayboyGirls.webp"}, {"image_file": "28_PlayboyGirls.webp"}, {"image_file": "29_PlayboyGirls.webp"}, {"image_file": "30_PlayboyGirls.webp"}
+      ]
+    },{
+      "identifier": "27",
+      "name": "Cutie Cat Chan",
+      "publisher": "Rygent",
+      "tray_image_file": "tray_CutieCatChan.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://www.whatsapp.com/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {"image_file": "01_CutieCatChan.webp"}, {"image_file": "02_CutieCatChan.webp"}, {"image_file": "03_CutieCatChan.webp"}, {"image_file": "04_CutieCatChan.webp"}, {"image_file": "05_CutieCatChan.webp"},
+        {"image_file": "06_CutieCatChan.webp"}, {"image_file": "07_CutieCatChan.webp"}, {"image_file": "08_CutieCatChan.webp"}, {"image_file": "09_CutieCatChan.webp"}, {"image_file": "10_CutieCatChan.webp"},
+        {"image_file": "11_CutieCatChan.webp"}, {"image_file": "12_CutieCatChan.webp"}, {"image_file": "13_CutieCatChan.webp"}, {"image_file": "14_CutieCatChan.webp"}, {"image_file": "15_CutieCatChan.webp"},
+        {"image_file": "16_CutieCatChan.webp"}, {"image_file": "17_CutieCatChan.webp"}, {"image_file": "18_CutieCatChan.webp"}, {"image_file": "19_CutieCatChan.webp"}, {"image_file": "20_CutieCatChan.webp"},
+        {"image_file": "21_CutieCatChan.webp"}, {"image_file": "22_CutieCatChan.webp"}, {"image_file": "23_CutieCatChan.webp"}, {"image_file": "24_CutieCatChan.webp"}
+      ]
+    },{
+      "identifier": "28",
       "name": "Kata Cinta Nora Alexandra",
       "publisher": "Rygent",
       "tray_image_file": "tray_Nora.png",
@@ -429,7 +504,7 @@
         {"image_file": "06_Nora.webp"}, {"image_file": "07_Nora.webp"}, {"image_file": "08_Nora.webp"}
       ]
     },{
-      "identifier": "25",
+      "identifier": "29",
       "name": "Si Imut Ayuonyes",
       "publisher": "Rygent",
       "tray_image_file": "tray_AyuOnyes.png",
