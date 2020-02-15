@@ -1,10 +1,10 @@
 {
-  "latestVersion": "1.0.6",
-  "latestVersionCode": "6",
+  "latestVersion": "1.0.7",
+  "latestVersionCode": "8",
   "url": "https://github.com/XRzky/Sticker.fy/releases",
   "releaseNotes": [
-    "- First evolution",
-    "- Second evolution",
-    "- Bug fixes"
+    "- Replace feedback source to firebase",
+    "- Sticker added : Billie Eilish, Meme Police, Playboy Girls &amp; Cutie Cat Chan",
+    "- Improvements stability"
   ]
 }

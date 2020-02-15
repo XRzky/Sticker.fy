@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
 
+    <release version="1.0.7" versioncode="8" >
+        <change>Replace feedback source to firebase</change>
+        <change>Sticker added : Billie Eilish, Meme Police, Playboy Girls &amp; Cutie Cat Chan</change>
+        <change>Improvements stability</change>
+    </release>
+
     <release version="1.0.6" versioncode="7" >
-        <change>Added About application</change>
         <change>Added Feedback form</change>
+        <change>Added in app updater</change>
+        <change>Added changelog apps</change>
+        <change>Sticker added : Resistance Girl &amp; Joker</change>
+        <change>Add back 13 stickers from previous apps</change>
         <change>Translation Indonesian</change>
         <change>Other bug fixes &amp; improvements</change>
     </release>
 
     <release version="1.0.4" versioncode="5" >
+        <change>Added About application</change>
         <change>Added Navigation Drawer</change>
+        <change>Added licenses</change>
+        <change>Added Share button</change>
         <change>Replace ActionBar to Toolbar</change>
         <change>Add back 3 stickers from previous apps</change>
         <change>Replace all background colors to white</change>
-        <change>New accent colors</change>
+        <change>Accent colors</change>
         <change>Replace all icons</change>
-        <change>[Fix] Glitch long name stickers</change>
+        <change>Fix glitch long name stickers</change>
     </release>
 
     <release version="1.0.0" versioncode="1">
         <change>Initial Build</change>
+        <change>Stable Release</change>
         <change>Change name &amp; package name from previous apps</change>
-        <change>[Update] New source from December 2019</change>
+        <change>New source from December 2019</change>
     </release>
 
 </changelog>

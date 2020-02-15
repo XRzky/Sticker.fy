@@ -12,8 +12,8 @@ android {
         applicationId "com.rylabs.stickerfy"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 6
-        versionName "1.0.6"
+        versionCode 8
+        versionName "1.0.7"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
