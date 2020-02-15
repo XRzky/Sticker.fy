@@ -90,7 +90,7 @@
     <string name="changelog_version_format">Version <xliff:g id="version_name">%s</xliff:g></string>
 
     <!-- Updater -->
-    <string name="update_available">Updates v%1$s is available!</string>
+    <string name="update_available">Updates found!</string>
     <string name="update_no_available">You\'ve got the latest version!</string>
     <string name="update_button">Update</string>
 </resources>

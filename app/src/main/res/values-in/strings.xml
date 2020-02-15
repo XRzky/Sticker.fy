@@ -89,7 +89,7 @@
 	<string name="changelog_version_format">Versi <xliff:g id="version_name">%s</xliff:g></string>
 
 	<!-- Updater -->
-	<string name="update_available">Pembaruan v%1$s telah tersedia!</string>
+	<string name="update_available">Pembaruan ditemukan!</string>
 	<string name="update_no_available">Anda sudah menggunakan versi terbaru!</string>
 	<string name="update_button">Perbarui</string>
 </resources>
