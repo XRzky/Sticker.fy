@@ -21,7 +21,8 @@ import com.google.android.material.appbar.MaterialToolbar;
 
 import de.cketti.library.changelog.ChangeLog;
 
-public class AboutActivity extends BaseActivity implements View.OnClickListener {
+public class AboutActivity extends BaseActivity
+        implements View.OnClickListener {
 
     LinearLayout share, license, changelog, update, github, telegram;
     String version;
@@ -107,16 +108,16 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener 
                 break;
 
             case R.id.github:
-                Intent github = new Intent();
-                github.setAction(Intent.ACTION_VIEW);
-                github.setData(Uri.parse("https://github.com/XRzky/Sticker.fy"));
+                Intent github = new Intent()
+                    .setAction(Intent.ACTION_VIEW)
+                    .setData(Uri.parse("http://github.com/XRzky"));
                 startActivity(github);
                 break;
 
             case R.id.telegram:
-                Intent telegram = new Intent();
-                telegram.setAction(Intent.ACTION_VIEW);
-                telegram.setData(Uri.parse("http://t.me/Rylabs"));
+                Intent telegram = new Intent()
+                    .setAction(Intent.ACTION_VIEW)
+                    .setData(Uri.parse("http://t.me/Rylabs"));
                 startActivity(telegram);
                 break;
 
